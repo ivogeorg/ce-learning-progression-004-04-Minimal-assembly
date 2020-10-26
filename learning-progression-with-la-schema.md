@@ -72,6 +72,8 @@ Synchronous circuits. Motivate the clock!
 The instruction set for the F-4 (fast 4), a proof-of-concept minimal instruction set CPU, is listed below.  Each instruction has several addressing modes. Note that the mnemonics are borrowed from the venerable Motorola SY6502, used in the old 8-bit Nintendo, among other machines.  There is only one "A" register or accumulator, and a program counter.
 
 ###### F-4 MISC 16 bit instruction set
+[[toc](#table-of-contents)]
+
 Instruction | Opcode | Operand | Operation | Clocks
 --- | --- | --- | --- | ---
 ADDi imm | 00 01 | 16 bit value | imm+(A) --> A | 3
@@ -85,6 +87,8 @@ STAm addr | 00 80 | 16 bit address | A --> (addr) | 3
 STApc | 01 00 | null operand | A --> PC | 3
 
 ###### In plain words  
+[[toc](#table-of-contents)]
+
 Instruction | Verbal elaboration | Sketch
 --- | --- | ---
 ADDi imm | Add an immediate value _imm_ and the value at address in register A, and write the result into register A  | [ADDi](images/misc-0001-addi.png)
@@ -98,6 +102,8 @@ STAm addr | Store the value of register A at address _addr_  | [STAm](images/mis
 STApc | Store the value of register A in the program counter PC  | [STApc](images/misc-0100-stapc.png)
 
 ###### Symbols  
+[[toc](#table-of-contents)]
+
 Symbol | Interpretation
 --- | ---
 imm | A numeric literal (e.g. 6<sub>10</sub>)
@@ -112,6 +118,7 @@ The four instructions can be summarized as Load, Store, Add, and Branch if Overf
 I estimate that about 1400 transistors would be needed to build this for a 16 bit implementation, which gives a 128k (2<sup>16</sup> words) space for programs and data.  With so few transistors, a very conservative performance estimate would be on the order of 50 MIPS if the memory is onboard the chip.
 
 ##### micro:bit hex files
+[[toc](#table-of-contents)]
 
 **TODO: Research & take apart a file and show contents (runtimes, program, etc.) _Where?_**  
 
