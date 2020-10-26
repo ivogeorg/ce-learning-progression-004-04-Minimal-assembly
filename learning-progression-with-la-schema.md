@@ -2,6 +2,26 @@
 
 This is learning progression 004 for the Fall 2020 installment of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
 
+Table of Contents
+=================
+
+* [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
+  * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
+    * [Step 4: Minimal assembly (part 1)](#step-4-minimal-assembly-part-1)
+      * [1\. Study](#1-study)
+        * [Central processing unit](#central-processing-unit)
+        * [Processor addressing modes](#processor-addressing-modes)
+        * [Load and store](#load-and-store)
+        * [Branching revisited](#branching-revisited)
+        * [Status bits](#status-bits)
+        * [Clock cycles](#clock-cycles)
+        * [Minimal instruction set CPU](#minimal-instruction-set-cpu)
+          * [F\-4 MISC 16 bit instruction set](#f-4-misc-16-bit-instruction-set)
+          * [In plain words](#in-plain-words)
+          * [Symbols](#symbols)
+        * [micro:bit hex files](#microbit-hex-files)
+      * [2\. Apply](#2-apply)
+      * [3\. Present](#3-present)
 
 
 ## Learning Progression 004: External LEDs
