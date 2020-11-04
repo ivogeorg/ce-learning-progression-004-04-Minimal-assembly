@@ -39,6 +39,17 @@ This progression introduces fundamentals of computing, including the binary syst
 
 The actual processor component which performs the operations of the instruction set.  
 
+##### Instruction set architecture
+[[toc](#table-of-contents)]
+
+The most basic _operations_ the processor executes. Note that operations are a very high abstraction level relative to electric signals and bit-states, which are part of the physical hardware of the computing device, and thus, the hardware stack. At the same time, operations are the _lowest abstraction level_ in the software stack. This is where the hardware and software stack intersect.
+
+##### Registers
+[[toc](#table-of-contents)]
+
+Small number of very fast memory locations, deep inside the processor, used in the execution of the processor's instructions. They hold instructions, operands, results, and control state.
+
+
 ##### Processor addressing modes  
 [[toc](#table-of-contents)]
 
