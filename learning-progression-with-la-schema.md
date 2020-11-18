@@ -137,6 +137,18 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 #### 2. Apply
 [[toc](#table-of-contents)]
 
+**TODO:** How to create intuition for the computation patterns?
+- write several programs and self-study  
+- seek one-level-higher understanding of ISA and distill as a stack layer  
+  - transistors  
+  - logic gates  
+  - ISA
+    - ALU  
+    - CPU  
+  - anti-compilation?   
+- compilation!!! (write a compiler???)  
+- implement on TRION?  
+
 1. `[<lernact-prac>]`Decoding instruction binary patterns. Reading program lines in binary.  
 2. `[<lernact-prac>]`Counting clock cycles for a program.    
 3. `[<lernact-prac>]`**[Optional challenge, max 5 extra step points]** Trace a program in F-4 MISC assembly.  
