@@ -157,3 +157,12 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 #### 3. Present
 [[toc](#table-of-contents)]
 
+
+## Resources
+
+1. [40 basic practices in assembly programming](https://www.codeproject.com/Articles/1116188/40-Basic-Practices-in-Assembly-Language-Programmin).  
+2. [The Art of Assembly Languages](https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf).  
+3. [Learning to Program in Assembly Language](https://www.whoishostingthis.com/resources/assembly-language/).  
+4. [Understanding Assembly Language](https://yurichev.com/writings/UAL-EN.pdf).  
+5. [Learning to Reas x86 Assembly Language](http://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language).  
+6. [nand2tetris](https://www.nand2tetris.org/course).  
